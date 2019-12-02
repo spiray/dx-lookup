@@ -2,7 +2,7 @@
     "name": "dx-lookup",
     "version": "0.1.0",
     "homepage": "http://spiray.github.io/dx-lookup",
-    "private": false,
+    "private": true,
     "dependencies": {
         "bootstrap": "^4.4.1",
         "react": "^16.12.0",
