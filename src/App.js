@@ -12,9 +12,13 @@ function App() {
 
   function setAndSearch(event) {
     event.preventDefault();
-    if (searchTerm in acuteCodes) setResult('Acute');
-    else if (searchTerm in chronicCodes) setResult('Chronic');
-    else setResult('Diagnosis not found...');
+    if (searchTerm in acuteCodes) { 
+      setResult('Acute');
+    } else if (searchTerm in chronicCodes) {
+      setResult('Chronic');
+    } else {
+      setResult('Diagnosis not found...');
+    }
   }
 
   return (

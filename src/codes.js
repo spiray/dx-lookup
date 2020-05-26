@@ -1,4 +1,4 @@
-const acuteCodes = {
+export const acuteCodes = {
     'J441': 'Chronic obstructive pulmonary disease with (acute) exacerbation',
     'J189': 'Pneumonia, unspecified organism',
     'J181': 'Lobar pneumonia, unspecified organism',
@@ -53,7 +53,7 @@ const acuteCodes = {
     'R0683': 'Snoring'
 };
 
-const chronicCodes = {
+export const chronicCodes = {
     c3480: 'Malignant neoplasm of overlapping sites of unspecified bronchus and lung',
     C3491: 'Malignant neoplasm of unspecified part of right bronchus or lung',
     C3492: 'Malignant neoplasm of unspecified part of left bronchus or lung',
@@ -106,9 +106,4 @@ const chronicCodes = {
     J9691: 'Respiratory failure, unspecified',
     J9692: 'Respiratory failure, unspecified with hypoxia',
     J9811: 'Respiratory failure, unspecified with hypercapnia'
-};
-
-export {
-    acuteCodes,
-    chronicCodes
 };
